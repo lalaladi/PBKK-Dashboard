@@ -1,0 +1,91 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "dashboard/1.0.0": {
+        "dependencies": {
+          "MaterialDesignThemes": "5.0.0-ci368",
+          "ModernUICharts.WPF.Beta": "0.9.1"
+        },
+        "runtime": {
+          "dashboard.dll": {}
+        }
+      },
+      "MaterialDesignColors/3.0.0-ci368": {
+        "runtime": {
+          "lib/net7.0/MaterialDesignColors.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "MaterialDesignThemes/5.0.0-ci368": {
+        "dependencies": {
+          "MaterialDesignColors": "3.0.0-ci368",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.39"
+        },
+        "runtime": {
+          "lib/net7.0/MaterialDesignThemes.Wpf.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
+        "runtime": {
+          "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.39.4716"
+          }
+        }
+      },
+      "ModernUICharts.WPF.Beta/0.9.1": {
+        "runtime": {
+          "lib/De.TorstenMandelkow.MetroChart.dll": {
+            "assemblyVersion": "0.9.5818.20693",
+            "fileVersion": "0.9.5818.20693"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "dashboard/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MaterialDesignColors/3.0.0-ci368": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JKGpTcUHZ6Byr+upo9M3BrBunPs51QU3JVrLyH9aEGyLBY2Kx/wEuYTcOXgUUq+A11XA0WinmMoBGh3b9uq0jw==",
+      "path": "materialdesigncolors/3.0.0-ci368",
+      "hashPath": "materialdesigncolors.3.0.0-ci368.nupkg.sha512"
+    },
+    "MaterialDesignThemes/5.0.0-ci368": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wfngFhAc4ev+6HlYb1nTHdGi8fsE3aCJ3gS3dDCQNx3zK1eXfTHiI3UkaNydZlWDrjf9BvphSfnAWTu30+E26g==",
+      "path": "materialdesignthemes/5.0.0-ci368",
+      "hashPath": "materialdesignthemes.5.0.0-ci368.nupkg.sha512"
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8PZKqw9QOcu42xk8puY4P1+EXHL9YGOR9b7qhaYx5cILHul456H073tj99vyPcCt0W0781T9RwHqkx507ZyUpQ==",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.39",
+      "hashPath": "microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
+    },
+    "ModernUICharts.WPF.Beta/0.9.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tL2BxIGBqXyKWUiUHB5s9+N32gFiIeswnbjz7iJ6TNbJQkLapB3UaBfoIEQ0PUO8H7jjbg3lCZv/sqHE6YJ+Yw==",
+      "path": "modernuicharts.wpf.beta/0.9.1",
+      "hashPath": "modernuicharts.wpf.beta.0.9.1.nupkg.sha512"
+    }
+  }
+}
